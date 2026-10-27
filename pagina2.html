@@ -16,5 +16,26 @@
     <h1>Pagina2</h1>
     <p id="saludo">Bienvenido a la pagina 2</p>
     <button id="btn-borrar">Borrar Nombre</button>
+    <section>
+        <h2>Respuestas a las preguntas de reflexión</h2>
+            <ol>
+                <li>La página 2 conoce mi nombre porque la página 1 lo guarda en sessionStorage, que funciona como una
+                    bodega temporal del navegador. Cuando la página 2 se abre, puede recuperar ese nombre usando
+                    sessionStorage.getItem("nombre"), aunque no tenga la caja de texto de la página 1.</li>
+                <li>Devuelve un valor null y, si no se revisara con el if, aparecería algo como «Hola, null». Entonces,
+                    el
+                    if ayuda a que, cuando no haya nada guardado, aparezca el mensaje «No hay nada guardado» y, si hay
+                    un
+                    nombre guardado, muestre «Hola, nombre».</li>
+                <li>La diferencia es que, al recargar la página, el valor guardado en sessionStorage se mantiene. En
+                    cambio,
+                    al cerrar la pestaña, los datos almacenados se eliminan porque finaliza la sesión de esa pestaña.
+                </li>
+                <li>No guardaría una contraseña en sessionStorage, porque aunque los datos se eliminan al cerrar la
+                    pestaña,
+                    pueden ser accesibles mediante JavaScript. Esto representa un riesgo de seguridad si la página tiene
+                    vulnerabilidades.</li>
+            </ol>
+    </section>
 </body>
 </html>
