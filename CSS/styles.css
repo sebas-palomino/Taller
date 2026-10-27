@@ -1,0 +1,39 @@
+body {
+    background-color: khaki;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input {
+    border: 5px solid #ccc;
+    border-radius: 7px;
+    padding: 6px 6px;
+}
+
+button {
+    background-color: #afaf1c;
+    color: white;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p { 
+    font-size: 20px;
+}
+
+nav a {
+    color: black; /* Color de los enlaces */
+    text-decoration: none; /* Quita la línea de subrayado */
+    font-size: 18px;
+}
+
+/* Opcional: Cambiar el color cuando pasas el mouse por encima de los enlaces */
+nav a:hover {
+    color: #38bdf8; /* Color del enlace al pasar el cursor */
+}
